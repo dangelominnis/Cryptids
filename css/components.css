@@ -1,0 +1,59 @@
+/* Buttons */
+.btn-transparent {
+  background: transparent;
+  color: var(--color-black);
+  border: .75px solid var(--color-dark-grey);
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 1000px;
+  padding: 1rem 1.75rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  letter-spacing: .3px;
+}
+
+.btn-transparent:hover {
+  background: var(--color-black);
+  color: var(--color-cream);
+}
+
+.btn-cream {
+  background: transparent;
+  color: var(--color-cream);
+  border: .75px solid var(--color-cream);
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 1000px;
+  padding: 1rem 1.75rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  letter-spacing: .3px;
+}
+
+.btn-cream:hover {
+  background: var(--color-cream);
+  color: var(--color-black);
+}
+
+.btn-red {
+  background: var(--color-red);
+  color: var(--color-cream);
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 1000px;
+  padding: 1rem 1.75rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  letter-spacing: .3px;
+}
+
+.btn-red:hover {
+  background: var(--color-cream);
+  color: var(--color-red);
+}

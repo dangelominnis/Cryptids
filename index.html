@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Cryptids Of The PNW, a cryptid based mystery pop-up exhibit." />
+    <meta name="keywords" content="Cryptids, PNW, Pop-Up Exhibit">
+    <meta name="author" content="Cryptids">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+    <title>Cryptids In The PNW</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- DM Serif Display -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Mulish -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <!-- Della Respira -->
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+    <!-- Marcellus -->
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <h4>A Pop-Up Exhibition</h4>
+                <h1>Cryptids<br><span>Of The PNW</span></h1>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <a href="index.html"><img class="bar__logo" src="img/cryptids-logo-03.png" alt="logo image"></a>
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="#header">Home</a>
+                <a class="nav__link" href="#about">About</a>
+                <a class="nav__link" href="#type">Identity</a>
+                <!-- <a class="nav__link" href="process.html">Sketches</a>
+                <a class="nav__link" href="about.html">Drawings</a> -->
+                <a class="nav__link" href="#info">Process</a>
+                <a class="btn-transparent" href="#vimeo">Watch Video</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Vimeo Video -->
+<div class='embed-container' id="vimeo">
+    <iframe src='https://player.vimeo.com/video/777560164?h=c7ada0e4c4' frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="about-box">
+            <div class="about-info">
+                <h4 style="color: rgba(9, 32, 28, .6);">01</h4>
+                <h3>Project Brief</h3>
+                <p>The Whatcom Museum has tasked us to create a pop-up exhibition on PNW Folklore, located in the museum's outdoor courtyard. The event should be designed to get patrons thinking about the space they inhabit and entertain them into seeing more of what the museum offers.</p>
+            </div>
+            <div class="about-team">
+                <h4 style="color: rgba(56, 88, 90, .6);">02</h4>
+                <h3>Mission Statement</h3>
+                <p>"Cryptids of the PNW" is an event that depicts the monsters who may live in our backyard and educate the public on where these folktales originate.</p>
+            </div>
+            <div class="about-info">
+                <h4 style="color: rgba(88, 133, 146, .6);">03</h4>
+                <h3>Customer Journey</h3>
+                <p>Each patron will experience an open floor plan that will allow them to explore whatever cryptid they want to learn about and partake in drinks and food offered by the museum restaurant and local vendors. The event with a documentary presentation projected on the street-side wall of the courtyard. <br>
+                The patron should enter expecting to see something fun and hooky and leave a little less convinced of the absence of the supernatural.</p>
+            </div>
+            <div class="about-team">
+                <h4 style="color: rgba(208, 72, 61, .6);">04</h4>
+                <h3>Target Audience</h3>
+                <p>The event is designed for Young Adults who grew up with content like Supernatural, all the way to Gen-Xers who watched the X files.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Type Section -->
+<section class="type" id="type">
+    <div class="type-box">
+        <div class="type-text">
+            <h2>Typography</h2>
+            <p>After going through various fonts, we wanted to create a professional look while also adhering to the mysterious aesthetic that cryptids have in pop culture. We narrowed down to a sleek sans serif font with hanging accents.</p>
+            <div class="type-button">
+                <a href="#color" class="btn-cream">View Color Palette &#8594;</a>
+            </div>
+        </div>
+        <div class="type-image">
+            <img src="img/cryptids-design-01.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Color Section -->
+<section class="color" id="color">
+    <div class="color-box">
+        <div class="color-text">
+            <h2>Color Palette</h2>
+            <p>We chose to go with a theme that envoked nature while also remaining dark and mysterious. We chose various accents of dark greens and blacks, as well a dull red to stand out in our presentation and give it a mysterious vibe.</p>
+            <div class="color-button">
+                <a href="#materials" class="btn-transparent">View Materials &#8594;</a>
+            </div>
+        </div>
+        <div class="color-image">
+            <img src="img/cryptids-design-02.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Materials Section -->
+<section class="materials" id="materials">
+    <div class="materials-box">
+        <div class="materials-text">
+            <h2>Materials</h2>
+            <p>Moss/Organic Material: WIll fill in spaces between walls and outside in our photo-op space. <br>
+                Birch Wood: This will be the primary construction material for the pop-up exhibition. <br>
+                Projection Sheet: There will be a large projector sheet placed on the street-side wall to display video <footage class="br"></footage>
+                Aluminum: There will be filing cabinets, desks, and various stands for lighting and structural support. <br>
+                Stone/Concrete: The courtyard itself is composed of large slabs of concrete, there are natural rocks and boulders we will utilize. </p>
+            <div class="materials-button">
+                <a href="#info" class="btn-cream">View Our Process &#8594;</a>
+            </div>
+        </div>
+        <div class="materials-image">
+            <img src="img/cryptids-design-03.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Slide Section -->
+<section class="slide">
+    <div class="container">
+        <h2></h2>
+    </div>
+</section>
+
+<!-- Info Section -->
+<section class="info" id="info">
+    <div class="container">
+        <div class="info-box">
+            <h3>Sketch Process</h3>
+            <p>Our sketching process allowed for us to take in the spaces layout and dimensions, as well as plan for our overall layout of a mysterious and dark vibe. We sketched buildings and characters we thought would represent a real-life experience best.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sketch Section -->
+<section class="sketch" id="sketch">
+    <!-- <div class="container"> -->
+        <div class="sketch-box">
+            <div class="sketch-item">
+                <img src="img/Untitled_Artwork.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Untitled_Artwork+1.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Untitled_Artwork+2.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Untitled_Artwork+3.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Untitled_Artwork+4.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Untitled_Artwork+5.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/characters.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/map.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/office-space-entrance.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/entrance.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/curvy-wall.png" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/wall-sign.png" alt="">
+            </div>
+        </div>
+    <!-- </div> -->
+</section>
+
+<!-- Info Section -->
+<section class="info">
+    <div class="container">
+        <div class="info-box">
+            <h3>Final Photography</h3>
+            <p>When it came to final photography, we wanted to highlight the overall film of the exhibition and we thought the best way to do that was through a video instead of still photographs. We used projection along with LED lights to create an environment that goes behond a normal photo studio.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sketch Section -->
+<section class="sketch">
+    <!-- <div class="container"> -->
+        <div class="sketch-box">
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (2 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (3 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (4 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (6 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (8 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/CryptidsPhoto_2 (1 of 1).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (5 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (9 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (10 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (11 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (12 of 12).jpg" alt="">
+            </div>
+            <div class="sketch-item">
+                <img src="img/Exhibition_FinalPhotos (1 of 12).jpg" alt="">
+            </div>
+        </div>
+    <!-- </div> -->
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-info">
+                <h3>Overview</h3>
+                <p>The Whatcom Museum has tasked us to create a pop-up exhibition on PNW Folklore, located in the museum's outdoor courtyard. The event should be designed to get patrons thinking about the space they inhabit and entertain them into seeing more of what the museum offers.</p>
+            </div>
+            <div class="footer-link-box">
+                <h3>Site Map</h3>
+                <div class="footer-link">
+                    <a href="#header">Home</a>
+                </div>
+                <div class="footer-link">
+                    <a href="#about">About</a>
+                </div>
+                <div class="footer-link">
+                    <a href="#type">Identity</a>
+                </div>
+                <div class="footer-link">
+                    <a href="#info">Process</a>
+                </div>
+            </div>
+            <div class="footer-team">
+                <h3>Team</h3>
+                <p><span>Illustration | Builder:</span> Hannah Feller
+                <br>
+                <span>Illustration | Builder:</span> Peyton Wood
+                <br>
+                <span>Media | Content Creator:</span> Owen Paznokas
+                <br>
+                <span>Developer | Designer:</span> D'Angelo Minnis
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Copyright Section -->
+<section class="copyright">
+    <div class="container">
+        <h4>Copyright @ 2022 C. All Rights Reserved.</h4>
+    </div>
+</section>
+
+</body>
+</html>
